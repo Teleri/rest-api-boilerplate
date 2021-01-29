@@ -9,6 +9,7 @@ class Api::V1::UsersController < ApplicationController
 
   # GET /user/:id
   def show
+    
     render json: @user
   end
 
